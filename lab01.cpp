@@ -96,7 +96,7 @@ void SortowanieB(Rekord *tablica[], const int N){
             }
         }
         --nieposortowanych;
-    }while(zmiana == 1);
+    }while(zmiana);
    
 }
 
